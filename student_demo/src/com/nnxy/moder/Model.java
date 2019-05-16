@@ -1,9 +1,9 @@
 package com.nnxy.moder;
 
 public class Model {
- private int id;
- private String name;
- private int sex;
+ private int id;//唯一标识
+ private String name;//姓名
+ private int sex;//性别
  
 public Model(int id, String name, int sex) {
 	super();
